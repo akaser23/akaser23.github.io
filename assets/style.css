@@ -1,0 +1,93 @@
+body {
+    background-color: #eae7dc ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+Header {
+    padding: 20px 35px;
+    background-color: #eae7dc;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+}
+
+header h1 {
+    color: #494846;
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: #494846;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    border-bottom: 1px solid #494846;
+    margin: 10px;
+}
+
+.hero {
+    background-image: url("./images/beniamin-sinca-nY0TrQMmR28-unsplash.jpg");
+    background-size: cover;
+    padding: 150px 20px;
+}
+
+.hero h2 {
+    text-align: right;
+    color: #494846;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-style: italic;
+}
+
+section {
+    color: #494846;
+}
+
+.section-row {
+    padding:50px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-row {
+    text-align: right;
+    padding-right: 10px;
+    border-right: 4px solid #e98074;
+}
+
+.section-body {
+    display:flex;
+    flex-wrap:wrap;
+    align-items: center;
+    flex: 2 70%;
+    padding-left: 15px;
+}
+
+.section-body p {
+    margin-top: 0;
+}
+
+.flex-row h2 {
+    font-size: 32px;
+    text-align: right;
+    margin-top: 0;
+}
