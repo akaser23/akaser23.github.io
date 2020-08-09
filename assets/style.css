@@ -63,7 +63,7 @@ section {
 
 .section-row {
     padding:50px;
-    width: 80%;
+    margin: 0;
     display: flex;
     flex-wrap: wrap;
 }
@@ -72,6 +72,7 @@ section {
     text-align: right;
     padding-right: 10px;
     border-right: 4px solid #e98074;
+    width: 15%;
 }
 
 .section-body {
@@ -90,4 +91,64 @@ section {
     font-size: 32px;
     text-align: right;
     margin-top: 0;
+}
+
+/**Grid Styles Begin**/
+.grid-wrapper {
+    display: flex;
+    justify-content: left;
+    padding-left: 15px;
+    width: 75%;
+}
+
+.grid-container {
+    background: #eae7dc;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-template-rows: repeat(3, 3fr);
+    color: #e85a4f;
+    font-size: 2rem;
+    justify-items: start | end | center | stretch;
+}
+
+.grid-item {
+    padding: 15px 0;
+    border: 3px solid #e85a4f;
+    display: flex;
+    text-align: left;
+    margin: 15px;
+}
+
+.grid-1 {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+    background-image: url(./images/run-buddy-screen.png);
+    background-size: cover;
+}
+
+.grid-item h2 {
+    font-size: 25px;
+    background-color: #e85a4f;
+    color: #494846;
+    display: inline;
+}
+
+/**Grid styles End**/
+
+.contact-body {
+    width:75%;
+}
+
+.contact-body ul {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+.contact-body ul li a {
+    text-decoration: none;
 }
