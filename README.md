@@ -7,4 +7,4 @@ In trying to reach the mock up specifications and design, I employed various css
 https://akaser23.github.io/
 
 ## Project Screenshots
-![ScreenShot](portfolio screen shot.png)
+![image](portfolio screen shot.png)
