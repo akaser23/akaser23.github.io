@@ -44,17 +44,40 @@ header nav ul li a {
     margin: 10px;
 }
 
+header nav ul li a:hover {
+    background-color: #e98074;
+}
+
 .hero {
-    background-image: url("./images/beniamin-sinca-nY0TrQMmR28-unsplash.jpg");
+    background-image: url("./images/eddy-lee-TQ4dMvpA6XM-unsplash\ \(1\).jpg");
     background-size: cover;
-    padding: 150px 20px;
+    padding: 50px 40px 50px 20px;
+}
+
+.hero-img {
+    display: inline-flex;
+}
+
+.hero-img img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 50%;
+    border: 4px solid #eae7dc;
+}
+
+.hero-text {
+    display: inline-flex;
+    float: right;
 }
 
 .hero h2 {
+    font-size: 30px;
     text-align: right;
     color: #494846;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     font-style: italic;
+    margin-top: 90%;
+    margin-right: 20px;
 }
 
 section {
@@ -107,14 +130,14 @@ section {
     display: grid;
     grid-template-columns: repeat(3, 3fr);
     grid-template-rows: repeat(3, 3fr);
-    color: #e85a4f;
+    color: #e98074;
     font-size: 2rem;
-    justify-items: start | end | center | stretch;
+    height: 500px;
 }
 
 .grid-item {
     padding: 15px 0;
-    border: 3px solid #e85a4f;
+    border: 3px solid #e98074;
     display: flex;
     text-align: left;
     margin: 15px;
@@ -123,21 +146,97 @@ section {
 .grid-1 {
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;
-    background-image: url(./images/run-buddy-screen.png);
+    background: linear-gradient(
+        rgba(233, 128, 116, 0.3), 
+        rgba(233, 128, 116, 0.3)
+      ), url(./images/run-buddy-screen.png);
     background-size: cover;
 }
 
-.grid-item h2 {
-    font-size: 25px;
-    background-color: #e85a4f;
+.grid-1:hover {
+    background: url(./images/run-buddy-screen.png);
+    background-size: cover;
+    transition: .3s;
+}
+
+.grid-2 {
+    background: linear-gradient(
+        rgba(233, 128, 116, 0.3), 
+        rgba(233, 128, 116, 0.3)
+      ), url(./images/marcel-strauss-moc3hdtx8qA-unsplash.jpg);
+    background-size: cover; 
+}
+
+.grid-2:hover {
+    background: url(./images/marcel-strauss-moc3hdtx8qA-unsplash.jpg);
+    background-size: cover;
+    transition: .3s;
+}
+
+.grid-3 {
+    background: linear-gradient(
+        rgba(233, 128, 116, 0.3), 
+        rgba(233, 128, 116, 0.3)
+      ), url(./images/marcel-strauss-moc3hdtx8qA-unsplash.jpg);
+    background-size: cover; 
+}
+
+.grid-3:hover {
+    background: url(./images/marcel-strauss-moc3hdtx8qA-unsplash.jpg);
+    background-size: cover;
+    transition: .3s;
+}
+
+.grid-4 {
+    background: linear-gradient(
+        rgba(233, 128, 116, 0.3), 
+        rgba(233, 128, 116, 0.3)
+      ), url(./images/marcel-strauss-moc3hdtx8qA-unsplash.jpg);
+    background-size: cover; 
+}
+
+.grid-4:hover {
+    background: url(./images/marcel-strauss-moc3hdtx8qA-unsplash.jpg);
+    background-size: cover;
+    transition: .3s;
+}
+
+.grid-5 {
+    background: linear-gradient(
+        rgba(233, 128, 116, 0.3), 
+        rgba(233, 128, 116, 0.3)
+      ), url(./images/marcel-strauss-moc3hdtx8qA-unsplash.jpg);
+    background-size: cover; 
+}
+
+.grid-5:hover {
+    background: url(./images/marcel-strauss-moc3hdtx8qA-unsplash.jpg);
+    background-size: cover;
+    transition: .3s;
+}
+
+.grid-title {
+    background-color: #e98074;
     color: #494846;
+    margin-top: auto;
+    padding-right: 6px;
+}
+
+.grid-item h2 {
+    font-size: 20px;
     display: inline;
+}
+
+.grid-item h3 {
+    font-size: 10px;
 }
 
 /**Grid styles End**/
 
 .contact-body {
     width:75%;
+    display: inherit;
+    list-style: none;
 }
 
 .contact-body ul {
@@ -149,6 +248,26 @@ section {
     text-decoration: none;
 }
 
-.contact-body ul li a {
+.contact-body li {
+    padding: 30px;
+}
+
+.contact-body li a {
     text-decoration: none;
+    color: #e98074;
+    border-bottom: 1px solid #494846;
+    padding-bottom: 3px;
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 600px) {
+    header nav ul li a {
+        font-size: 30px;
+        flex: 1 100%;
+    }
 }
