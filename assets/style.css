@@ -160,12 +160,12 @@ section {
     background: linear-gradient(
         rgba(233, 128, 116, 0.3), 
         rgba(233, 128, 116, 0.3)
-      ), url(./images/run-buddy-screen.png);
+      ), url(./images/readme\ gif\ of\ app.gif);
     background-size: cover;
 }
 
 .grid-1:hover {
-    background: url(./images/run-buddy-screen.png);
+    background: url(./images/readme\ gif\ of\ app.gif);
     background-size: cover;
     transition: .3s;
 }
@@ -174,12 +174,12 @@ section {
     background: linear-gradient(
         rgba(233, 128, 116, 0.3), 
         rgba(233, 128, 116, 0.3)
-      ), url(./images/marcel-strauss-moc3hdtx8qA-unsplash.jpg);
+      ), url(./images/weather-scrren-shot.png);
     background-size: cover; 
 }
 
 .grid-2:hover {
-    background: url(./images/marcel-strauss-moc3hdtx8qA-unsplash.jpg);
+    background: url(./images/weather-scrren-shot.png);
     background-size: cover;
     transition: .3s;
 }
