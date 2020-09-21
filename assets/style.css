@@ -160,12 +160,12 @@ section {
     background: linear-gradient(
         rgba(233, 128, 116, 0.3), 
         rgba(233, 128, 116, 0.3)
-      ), url(./images/readme\ gif\ of\ app.gif);
+      ), url(./images/Mood\ Music\ _\ The\ Weather\ Based\ Mood\ Selector.gif);
     background-size: cover;
 }
 
 .grid-1:hover {
-    background: url(./images/readme\ gif\ of\ app.gif);
+    background: url(./images/Mood\ Music\ _\ The\ Weather\ Based\ Mood\ Selector.gif);
     background-size: cover;
     transition: .3s;
 }
@@ -188,12 +188,12 @@ section {
     background: linear-gradient(
         rgba(233, 128, 116, 0.3), 
         rgba(233, 128, 116, 0.3)
-      ), url(./images/marcel-strauss-moc3hdtx8qA-unsplash.jpg);
+      ), url(./images/readme\ gif\ of\ app.gif);
     background-size: cover; 
 }
 
 .grid-3:hover {
-    background: url(./images/marcel-strauss-moc3hdtx8qA-unsplash.jpg);
+    background: url(./images/readme\ gif\ of\ app.gif);
     background-size: cover;
     transition: .3s;
 }
