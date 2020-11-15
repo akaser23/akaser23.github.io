@@ -202,12 +202,12 @@ section {
     background: linear-gradient(
         rgba(233, 128, 116, 0.3), 
         rgba(233, 128, 116, 0.3)
-      ), url(./images/marcel-strauss-moc3hdtx8qA-unsplash.jpg);
+      ), url(./images/holiday-planner-screen.png);
     background-size: cover; 
 }
 
 .grid-4:hover {
-    background: url(./images/marcel-strauss-moc3hdtx8qA-unsplash.jpg);
+    background: url(./images/holiday-planner-screen.png);
     background-size: cover;
     transition: .3s;
 }
